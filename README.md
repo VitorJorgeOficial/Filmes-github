@@ -1,4 +1,5 @@
-### **Sua Filmografia Pessoal, Sempre à Mão!** 
+Primeira vez construindo um código Html com ajuda da Alura e Google Gemini
+### **Sua Filmografia Pessoal -  Imersão Dev com Google Gemini
 
 **O que faz essa belezinha?**
 

@@ -18,12 +18,15 @@ function pesquisar() {
     let titulo =  "";
     let categoria = "";
     let tags = "";
+    let trailer = "";
   
     // Itera sobre cada item de dados e constrói o HTML correspondente
     for (let dado of dados) {
       titulo = dado.titulo.toLowerCase()
       categoria = dado.categoria.toLowerCase()
       tags = dado.tags.toLocaleLowerCase()
+      
+      
         // se titulo includes campoPesquisa
         if(titulo.includes(campoPesquisa) || categoria.includes(campoPesquisa)|| tags.includes(campoPesquisa)) {
           // Cria um novo elemento
@@ -36,6 +39,7 @@ function pesquisar() {
   <p class="descricao-meta">${dado.categoria}</p>
   <p class="sinopse-meta">${dado.sinopse}</p>
   <a href="${dado.link}" target="_blank">Mais informações</a>
+  <a href="${dado.trailer}" target="_blank">Trailer</a>
 </div>
 `;
 // Cria um novo elemento de resultado com as informações do dado
